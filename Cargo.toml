@@ -1,0 +1,15 @@
+[package]
+name = "bregman-divergence"
+version = "0.1.0"
+edition = "2024"
+description = "Bregman divergences: KL, squared Euclidean, Itakura-Saito, convex generating functions, and mirror descent"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/SuperInstance/bregman-divergence"
+keywords = ["bregman", "divergence", "kl-divergence", "mirror-descent", "machine-learning"]
+categories = ["mathematics", "science"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
+serde_json = "1"
